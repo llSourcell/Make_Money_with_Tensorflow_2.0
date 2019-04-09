@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+{% import "macros.html" as m %}
+<html lang="en">
+	<body id="container" style="background-color:#F0EAB3" >
+   		<div id="header">
+   			{% block head %}
+				<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
+				<meta charset="UTF-8">
+				<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+				<!-- jQuery -->
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+				<!-- Semantic Main CSS -->
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+				<!-- Semantic Reset CSS -->
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/components/reset.min.css"/>
+				<!-- Semantic Menu CSS -->
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/components/menu.min.css"/>
+				<!-- Main Semantic JS  -->
+			    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+				<!-- Custom CSS -->
+				<link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+				<!-- Browser tab name -->
+				<title>{{ title }}</title>
+				<!-- Navbar -->
+				<div class="ui attached inverted menu">
+				  	{{ m.nav_link('index', 'Home') }}
+				  	{{ m.nav_link('map', 'Map') }}
+					{{ m.nav_link('contact', 'Contact') }}
+				 	<div class="right menu">
+				 		<!-- User is logged in -->
+				      	{% if current_user.is_authenticated %}
+				      		<div class="item">
+				        		<a class="ui primary button" href="/user/account">{{ current_user.full_name }}</a>
+				    		</div>
+				    		<div class="item">
+				        		<a class="ui default button" href="/user/signout">Sign out</a>
+				    		</div>
+			          	<!-- User is not logged in -->
+			          	{% else %}
+			          		<div class="item">
+				        		<a class="ui primary button" href="/user/signin">Sign in</a>
+				    		</div>
+				    		<div class="item">
+				        		<a class="ui default button" href="/user/signup">Sign up</a>
+				    		</div>
+						{% endif %}
+			  		</div>
+				</div>
+			{% endblock %}
+   		</div>
+   		<!-- Message flashing -->
+		{% with messages = get_flashed_messages(with_categories=true) %}
+		  	{% if messages %}
+		    	<ul>
+		    		{% for category, message in messages %}
+		      			<li class="ui {{ category }} message flash">{{ message }}</li>
+		    		{% endfor %}
+		    	</ul>
+		  	{% endif %}
+		{% endwith %}
+   		<div id="body" class="body" >
+   			<center>
+
+
+	<img src="https://i.imgur.com/eYJJla1.png" width="600" height="350">
+
+
+
+	<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+</style>
+</head>
+<body>
+
+	{% block content %}{% endblock %}
+
+
+
+<center>
+
+
+
+  <div class="col-lg-12 text-center" style="background-color:#F0EAB3;">
+
+<img src="http://jeja.info/wp-content/uploads/2018/12/stock-market-infographic-heres-40-stock-market-terms-that-every-beginner-should-know-download.jpg" alt="Italian Trulli">
+
+  	
+    <h2>Tired of doing market research? Our AI automates it for you. Just select the industry you'd like it to invest in, it will do the rest.</h2>
+
+    <select>
+  <option value="volvo">Energy</option>
+  <option value="saab">Agriculture</option>
+  <option value="mercedes">Technology</option>
+  <option value="audi">Transportation</option>
+</select>
+
+     <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+
+            data-key="pk_test_TQmy1LFbeJ6tgZLOdzT4pZRh00mJ3yq97c"
+            data-description="A Flask Charge"
+            data-amount="10000"
+	    data-email="{{ email }}"
+            data-locale="auto"></script>
+
+            <script type="text/javascript">
+    $(document).ready(function(){
+        $(".stripe-button-el span").remove();
+            $("button.stripe-button-el").removeAttr('style').css({
+                "display":"inline-block",
+                "width":"100%",
+                "padding":"15px",
+                "background":"#3fb0ac",
+                "color":"white",
+                "font-size":"1.3em" }).html("Invest");
+        });
+</script>
+  </div>
+
+
+</center>
+
+</body>
+</center>
+
+   		</div>
+		<div id="footer">
+			<div class="ui divider"></div>
+	    		<div class="ui divided horizontal footer link list">
+			      
+	    		</div>
+	  		</div>
+		</div>
+	</body>
+</html>

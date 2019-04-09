@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<body>
+	<img src="http://diagnijmegen.nl/images/b/bd/Xray.jpg" alt="Italian Trulli">
+
+					<!-- {{ predictions }} -->
+					<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Results</h2>
+
+<table>
+  <tr>
+    <th>Disease</th>
+    <th>Percent Likelihood</th>
+  </tr>
+  <tr>
+    <td>Pneumonia</td>
+    <td>98%</td>
+  </tr>
+  <tr>
+    <td>Fibrosis</td>
+    <td>43%</td>
+  </tr>
+</table>
+
+</body>
+</html>
+    <title>Index</title>
+</head>
+<body>
+</body>
+</html>
+
+
+{% endblock %}

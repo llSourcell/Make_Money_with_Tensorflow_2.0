@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+
+ <center> <h2><font color='white'>Thanks, you paid <strong>$10.00</strong>!</font></h2>
+  <h2><font color='white'>Upload your image below</font></h2>
+ <img src="https://www.popsci.com/sites/popsci.com/files/styles/1000_1x_/public/images/2018/08/untitled.png?itok=ualUMeJN&fc=50,50"></center>
+
+  <form action = "http://localhost:5000/uploaded" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>
+{% endblock %}

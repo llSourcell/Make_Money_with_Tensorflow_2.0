@@ -1,0 +1,4 @@
+*.db
+*.log
+*.pyc
+config.py
