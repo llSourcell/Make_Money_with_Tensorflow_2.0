@@ -29,9 +29,9 @@ Step 4 - The model will be able to make time series predictions, but what if it 
 
 Step 5 - Have 3 more models train on 3 news datasets via the google news API for each of the stocks. perform sentiment analysis using a pretrained model like [BERT](https://github.com/cedrickchee/pytorch-pretrained-BERT) to do this. Pick the stock that has the highest sentiment and price prediction. 
 
-Step 6 - Figure out a way to implement Deep Reinforcement Learning to tensorflow serving, i haven't yet seen an example of this done on GitHub. I might just do this in my next video. Treat the market as a markov decision process, the agents actions are buy sell or hold. 
+Step 6 - Figure out a way to implement Deep Reinforcement Learning in tensorflow serving, i haven't yet seen an example of this done on GitHub. I might just do this in my next video. Treat the market as a markov decision process, the agents actions are buy sell or hold. 
 
 
 ## Credits
 
-toebit3hub, tensorflow team, cedrickchee, my parents, my audience, all humans who came before me, thank you i am but a temporary vessel of knowledge 
+toebit3hub, tensorflow team, cedrickchee, my parents, my Wizards, all humans who came before me, thank you i am but a temporary vessel of knowledge 
