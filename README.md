@@ -4,6 +4,10 @@
 
 This is the code for [this]() video on Youtube by Siraj Raval on Making Money with Tensorflow 2.0. In the video, i demonstrated an app called NeuralFund that uses deep learning to make investment decisions. 
 
+## Pull requests
+
+I encourage pull requests that make this code better
+
 ## Dependencies 
 
 * Tensorflow 2.0 
