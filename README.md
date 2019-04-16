@@ -29,7 +29,7 @@ Step 2 - In the 'train.py' file in the simple TF serving demo, under main(): add
 
 Step 3 - Add [this](https://www.tradingview.com/widget/advanced-chart/) trading view widget anywhere on the front end for a nice stock visualization.
 
-Step 4 - The model will be able to make time series predictions, but what if it could also predict which stock to buy? Have 3 seperate models train on 3 different stock prices simulatenously. When done training, have them perform inference to predict the next price. Use the prediction that offers the highest increase from the previous price. 
+Step 4 - The model will be able to make time series predictions, but what if it could also predict which stock to buy? Have 3 separate models train on 3 different stock prices simulatenously. When done training, have them perform inference to predict the next price. Use the prediction that offers the highest increase from the previous price. 
 
 Step 5 - Have 3 more models train on 3 news datasets via the google news API for each of the stocks. perform sentiment analysis using a pretrained model like [BERT](https://github.com/cedrickchee/pytorch-pretrained-BERT) to do this. Pick the stock that has the highest sentiment and price prediction. 
 
