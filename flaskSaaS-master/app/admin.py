@@ -1,15 +1,11 @@
 import os.path as op
-
 from flask import request, Response
 from werkzeug.exceptions import HTTPException
 from flask_admin import Admin
 from flask.ext.admin.contrib.sqla import ModelView
 from flask.ext.admin.contrib.fileadmin import FileAdmin
-
 from app import app, db
 from app.models import User
-
-
 admin = Admin(app, name='Admin', template_mode='bootstrap3')
 
 class ModelView(ModelView):

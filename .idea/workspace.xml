@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57a01981-59c5-441d-9a8e-143084a260cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Make_Money_with_Tensorflow_2.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/config_dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/config_dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/config_prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/config_prod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/forms/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/forms/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/logger_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/logger_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/email/confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/email/confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/email/reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/email/reset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/macros.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/macros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/purchased.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/purchased.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/uploaded.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/uploaded.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/user/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/user/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/user/buy.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/user/buy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/user/charge.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/user/charge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/user/forgot.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/user/forgot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/user/reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/user/reset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/user/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/user/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/templates/user/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/templates/user/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/toolbox/email.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/toolbox/email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/views/error.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/views/error.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/views/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/views/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/app/views/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/app/views/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskSaaS-master/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flaskSaaS-master/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2MtIm2wAF2J8SkrmvhVaRd5PTpT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\GitHub" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.__init__">
+    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Make_Money_with_Tensorflow_2.0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flaskSaaS-master/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../Program Files/Python311/Lib/site-packages/markupsafe/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Make_Money_with_Tensorflow_2.0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flaskSaaS-master/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flaskSaaS-master/app/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Make_Money_with_Tensorflow_2.0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flaskSaaS-master/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flaskSaaS-master/app/admin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__init__ (1)" />
+        <item itemvalue="Python.admin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57a01981-59c5-441d-9a8e-143084a260cc" name="Changes" comment="" />
+      <created>1678580606122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678580606122</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" log-message="true" log-stack="true" type="python-exception">
+          <properties notifyOnlyOnFirst="true" notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+            <option name="notifyOnlyOnFirst" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/../../../../../Program Files/Python311/Lib/re/__init__.py" line="271">
+        <watch expression="assert isinstance(pattern, object)&#10;pattern" language="Python" />
+      </inline-watch>
+    </watches-manager>
+  </component>
+</project>
